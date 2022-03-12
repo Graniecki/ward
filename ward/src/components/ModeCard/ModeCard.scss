@@ -1,0 +1,42 @@
+.mode-card {
+    overflow: hidden;
+    max-width: 350px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+
+    &__preview {
+        height: 250px;
+        border-radius: 25% 24% 55% 39% / 0 0 39% 32%;
+        background: rgb(68,80,244);
+        background: linear-gradient(40deg, rgba(68,80,244,1) 0%, rgba(90,71,235,1) 50%);
+    }
+
+    .card-info {
+        padding: 30px 20px;
+
+        &__title {
+            text-align: center;
+        }
+
+        &__description {
+            text-align: center;
+        }
+
+        &__start {
+            display: block;
+            margin: 15px auto 0;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 25px;
+            background: black;
+            color: #ffffff;
+            cursor: pointer;
+            // transition: background-color 300ms;
+
+            &:hover {
+              background: linear-gradient(40deg, rgba(68,80,244,1) 0%, rgba(90,71,235,1) 50%);
+            }
+        }
+    }
+}

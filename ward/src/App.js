@@ -1,23 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
+import { Header } from './components/Header';
+import { Aside } from './components/Aside';
+import { Home } from './routes/Home';
+import { Deck } from './routes/Deck';
+import Modes from './routes/Modes/Modes';
+import SignIn from './authentication/SignIn/SignIn';
+import SignUP from './authentication/SignUp/SignUp';
+
+import { onAuthStateChanged } from "firebase/auth";
+import { auth } from "./firebase-config";
+
+import './App.scss';
 
 function App() {
+  const [user, setUser] = useState(null);
+
+  onAuthStateChanged(auth, (currentUser) => {
+    setUser(currentUser);
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!user ? (
+        <>
+          <Redirect from="/" to="/sign-in" />
+          <Route path="/sign-in" component={SignIn} />
+          <Route path="/sign-up" component={SignUP} />
+        </>
+      ) : (
+        <div className='app-wrapper'>
+          <Header logOut={!!user} />
+          <Aside />
+    
+          <main>
+            <Switch>
+              <Route path="/modes" component={Modes} />
+              <Route path="/words-list" component={Deck} />
+              <Route path="/home" component={Home} />
+    
+              <Redirect from="/" to="/home" />
+            </Switch>
+          </main>
+        </div>
+      )}
     </div>
   );
 }

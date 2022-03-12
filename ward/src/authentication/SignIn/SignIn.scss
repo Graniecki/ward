@@ -1,0 +1,104 @@
+.sign-in {
+    min-height: 100vh;
+    padding: 120px 96px 0;
+    background-color: #ffffff;
+
+    &-wrapper {
+        max-width: 456px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        margin-bottom: 36px;
+        color: #485268;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .info {
+        &__field {
+            &:first-child {
+                margin-bottom: 24px;
+            }
+
+            label {
+                display: inline-block;
+                margin: 0 0 8px 24px;
+                color: #485268;
+                font-weight: 700;
+                font-size: 14px;
+            }
+
+            div {
+                margin-bottom: 8px;
+            }
+
+            input {
+                display: block;
+                width: 100%;
+                padding: 16px 24px;
+                border: 1px solid transparent;
+                border-radius: 32px;
+                background-color: #e7f0fe;
+                font-weight: 400;
+                font-size: 16px;
+                transition: border-color 400ms;
+
+                &::placeholder {
+                    color: #bfc5d1;
+                }
+
+                &:hover {
+                    border-color: #dee2ed;
+                }
+
+                &:focus {
+                    outline: none;
+                    border-color: #8b93a6;
+                }
+            }
+        }
+
+        &__submit {
+            display: block;
+            width: 100%;
+            margin-top: 24px;
+            padding: 16px 24px;
+            border: 1px solid transparent;
+            border-radius: 26px;
+            background-color: #e25544;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 400ms;
+
+            &:hover {
+                background-color: #d63e30;
+            }
+
+            &:focus {
+                outline: none;
+                background-color: #c90000;
+                box-shadow: 0 0 0 2px #ffc3c3;
+            }
+        }
+
+        &__caption {
+            margin: 48px 0;
+            color: #485268;
+            font-weight: 700;
+            font-size: 14px;
+
+            a {
+                color: #fb4b3b;
+                transition: color 400ms;
+
+                &:hover,
+                &:focus {
+                    color: #22b0fc;
+                }
+            }
+        }
+    }
+}
