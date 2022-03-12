@@ -5,13 +5,13 @@ aside {
     left: 0;
     width: 80px;
     height: calc(100% - 60px);
+    transition: transform 0.35s cubic-bezier(0.3, 0.1, 0.3, 1) 0s;
 
     nav {
         overflow: hidden;
         height: 100%;
         border-right: 1px solid rgb(222, 226, 237);
         background-color: rgb(255, 255, 255);
-        transition: transform 0.35s cubic-bezier(0.3, 0.1, 0.3, 1) 0s;
         pointer-events: auto;
 
         li {
@@ -57,5 +57,22 @@ aside {
                 }
             }
         }
+    }
+}
+
+@media all and (max-width: 991px) {
+    aside {
+        width: 320px;
+        transform: translateX(-100%);
+
+        &.open {
+            transform: translateX(0);
+        }
+    }
+}
+
+@media all and (max-width: 640px) {
+    aside {
+        width: 100%;
     }
 }

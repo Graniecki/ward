@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
+import classNames from "classnames";
 import "./Aside.scss";
 
-export const Aside = () => {
+export const Aside = ({ isMenuOpen }) => {
   return (
-    <aside>
+    <aside className={classNames({ open: isMenuOpen })}>
       <nav>
         <ul>
           <li>

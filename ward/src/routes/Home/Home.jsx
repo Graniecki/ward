@@ -45,7 +45,7 @@ export const Home = () => {
     <div className="home-wrapper">
       <div className="home">
         <h1>Home page</h1>
-        <button onClick={getWords}>Push data into db</button>
+        {/* <button onClick={getWords}>Push data into db</button>
 
         <form onSubmit={addWord}>
           <h2>Add word</h2>
@@ -68,7 +68,7 @@ export const Home = () => {
           />
           <br />
           <button type="submit">Add word</button>
-        </form>
+        </form> */}
       </div>
     </div>
   );

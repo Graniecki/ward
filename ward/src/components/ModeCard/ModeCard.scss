@@ -32,11 +32,25 @@
             background: black;
             color: #ffffff;
             cursor: pointer;
+
             // transition: background-color 300ms;
 
             &:hover {
-              background: linear-gradient(40deg, rgba(68,80,244,1) 0%, rgba(90,71,235,1) 50%);
+                background: linear-gradient(40deg, rgba(68,80,244,1) 0%, rgba(90,71,235,1) 50%);
             }
         }
+    }
+}
+
+@media all and (max-width: 991px) {
+    .mode-card {
+        max-width: 300px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .mode-card {
+        max-width: 250px;
+        margin: 0 auto;
     }
 }

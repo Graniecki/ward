@@ -14,11 +14,18 @@ import { auth } from "./firebase-config";
 import './App.scss';
 
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [user, setUser] = useState(null);
 
   onAuthStateChanged(auth, (currentUser) => {
     setUser(currentUser);
   });
+
+  const toggleMenuBar = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  console.log(isMenuOpen);
 
   return (
     <div className="App">
@@ -30,9 +37,12 @@ function App() {
         </>
       ) : (
         <div className='app-wrapper'>
-          <Header logOut={!!user} />
-          <Aside />
-    
+          <Header
+            logOut={!!user}
+            toggleMenuBar={toggleMenuBar}
+          />
+          <Aside isMenuOpen={isMenuOpen} />
+
           <main>
             <Switch>
               <Route path="/modes" component={Modes} />

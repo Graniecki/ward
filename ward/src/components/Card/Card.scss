@@ -96,3 +96,24 @@
         }
     }
 }
+
+@media all and (max-width: 640px) {
+    .card-wrapper {
+        .card {
+            max-width: 350px;
+            overflow: visible;
+
+            &__info {}
+
+            &__navigation {
+                flex-direction: column;
+                height: 80px;
+                justify-content: center;
+
+                .card__button {
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
