@@ -19,12 +19,20 @@
 @media all and (max-width: 640px) {
     .statistics-wrapper {
         justify-content: center;
+        width: 100%;
+        max-width: 350px;
+        margin: 30px auto 0;
 
         .statistics {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
             padding: 5px 8px;
+            padding: 15px;
+            border-radius: 15px;
 
             &__info {
-                font-size: 12px;
+                font-size: 16px;
             }
         }
     }

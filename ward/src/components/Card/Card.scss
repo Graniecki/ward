@@ -40,12 +40,9 @@
                 height: 100%;
                 border: 1px solid rgba(245, 246, 250, 0.3);
                 border-radius: 0 16px 16px 0;
-                background: rgba(245, 246, 250, 0.44);
+                background: #dee2ed;
                 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
                 cursor: pointer;
-
-                -webkit-backdrop-filter: blur(8px);
-                backdrop-filter: blur(8px);
             }
 
             &.open::after {
@@ -100,18 +97,23 @@
 @media all and (max-width: 640px) {
     .card-wrapper {
         .card {
-            max-width: 350px;
             overflow: visible;
+            max-width: 350px;
 
-            &__info {}
+            &__info {
+            }
 
             &__navigation {
                 flex-direction: column;
-                height: 80px;
                 justify-content: center;
+                height: auto;
+
+                row-gap: 5px;
 
                 .card__button {
-                    width: 90%;
+                    width: 100%;
+                    padding: 5px;
+                    border-radius: 10px;
                 }
             }
         }

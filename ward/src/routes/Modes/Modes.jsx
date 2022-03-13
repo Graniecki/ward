@@ -2,7 +2,7 @@ import { useMemo, useCallback } from "react";
 import { Switch, useLocation } from "react-router-dom";
 import { Route } from "react-router-dom";
 import { connect } from "react-redux";
-import wordsStatisticActions from '../../redux/wordsStatisticActions';
+import wordsStatisticActions from "../../redux/wordsStatisticActions";
 
 import { ModeCard } from "../../components/ModeCard/ModeCard";
 import WordsStatistic from "../../components/WordsStatistic/WordsStatistic";
@@ -16,7 +16,7 @@ const Modes = ({ words, resetResults }) => {
   const searchParams = new URLSearchParams(location.search);
   const wordId = +searchParams.get("wordId");
 
-  if (location.pathname === '/modes') {
+  if (location.pathname === "/modes") {
     resetResults();
   }
 
@@ -54,11 +54,13 @@ const Modes = ({ words, resetResults }) => {
         </Route>
 
         <Route exact path={"/modes/total-recall"}>
-          <WordsStatistic wordsRemain={shuffledWords.length - (wordId - 1)} />
-          <Card
-            wordsCount={shuffledWords.length}
-            word={shuffledWords[wordId - 1]}
-          />
+          <div className="total-recall">
+            <WordsStatistic wordsRemain={shuffledWords.length - (wordId - 1)} />
+            <Card
+              wordsCount={shuffledWords.length}
+              word={shuffledWords[wordId - 1]}
+            />
+          </div>
         </Route>
 
         <Route path={"/modes/total-recall/results"}>
@@ -73,7 +75,7 @@ const mapStateToProps = (state) => ({
   words: state.wordsList,
 });
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch) => ({
   resetResults: () => dispatch(wordsStatisticActions.resetResults()),
 });
 

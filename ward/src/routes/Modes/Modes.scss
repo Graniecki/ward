@@ -20,5 +20,10 @@
         flex-direction: column;
 
         row-gap: 30px;
+
+        .total-recall {
+            display: flex;
+            flex-direction: column-reverse;
+        }
     }
 }

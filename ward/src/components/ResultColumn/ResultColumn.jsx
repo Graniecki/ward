@@ -8,7 +8,7 @@ export const ResultColumn = ({ percent, title, wordsList }) => {
   console.log(wordsList);
   return (
     <div className="results">
-      <div style={{ width: 200, height: 200, margin: "0 auto" }}>
+      <div className="results__diagram">
         <CircularProgressbar
           value={percent}
           text={`${percent}%`}
@@ -21,20 +21,6 @@ export const ResultColumn = ({ percent, title, wordsList }) => {
         />
       </div>
       <h4 className="results__title">{title}</h4>
-
-      {/* <ul className="results__words">
-        {wordsList.map((word) => (
-          <li key={word.id} className="results__word">
-            {word.translation}
-            <Popup
-              trigger={<button className="results__info">&#63;</button>}
-              position="right center"
-            >
-              <div>{word.word}</div>
-            </Popup>
-          </li>
-        ))}
-      </ul> */}
     </div>
   );
 };
