@@ -46,11 +46,19 @@ const Modes = ({ words, resetResults }) => {
     <div className="modes">
       <Switch>
         <Route exact path={"/modes"}>
-          <ModeCard
-            title="Total recall"
-            description="In this mode, you'll try to recall all your words."
-            path="/modes/total-recall?wordId=1"
-          />
+          <div className="modes-wrapper">
+            <ModeCard
+              title="Total recall"
+              description="In this mode, you'll try to recall all your words."
+              path="/modes/total-recall?wordId=1"
+            />
+
+            <ModeCard
+              title="Vice Versa"
+              description="Native -> Foreign"
+              path="/modes/vice-versa?wordId=1"
+            />
+          </div>
         </Route>
 
         <Route exact path={"/modes/total-recall"}>
@@ -59,11 +67,23 @@ const Modes = ({ words, resetResults }) => {
             <Card
               wordsCount={shuffledWords.length}
               word={shuffledWords[wordId - 1]}
+              version="standart"
             />
           </div>
         </Route>
 
-        <Route path={"/modes/total-recall/results"}>
+        <Route exact path={"/modes/vice-versa"}>
+          <div className="vice-versa">
+            <WordsStatistic wordsRemain={shuffledWords.length - (wordId - 1)} />
+            <Card
+              wordsCount={shuffledWords.length}
+              word={shuffledWords[wordId - 1]}
+              version="vice-versa"
+            />
+          </div>
+        </Route>
+
+        <Route path={"/modes/results"}>
           <ResultsTable wordsCount={shuffledWords.length} />
         </Route>
       </Switch>

@@ -580,7 +580,7 @@
   },
   {
     "id": 113,
-    "word": "працювати, діяти",
+    "word": "працювати, керувати",
     "translation": "Operate"
   },
   {
@@ -1648,7 +1648,189 @@
     "id": 304,
     "word": "двозначний",
     "translation": "ambiguous",
-    "transcription": " /æmˈbɪɡjuəs/",
+    "transcription": "/æmˈbɪɡjuəs/",
     "example": "an ambiguous statement"
+  },
+  {
+    "id": 305,
+    "word": "банкнота",
+    "translation": "note",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 306,
+    "word": "багато разів",
+    "translation": "loads of times",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 307,
+    "word": "чути",
+    "translation": "Hear",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 308,
+    "word": "продавець",
+    "translation": "salesman",
+    "transcription": "/ˈseɪlzmən/",
+    "example": ""
+  },
+  {
+    "id": 309,
+    "word": "брюки",
+    "translation": "Trouser",
+    "transcription": "|ˈtraʊzər|",
+    "example": ""
+  },
+  {
+    "id": 310,
+    "word": "не мати грошей",
+    "translation": "broke",
+    "transcription": "",
+    "example": "I can't afford it - I'm broke."
+  },
+  {
+    "id": 311,
+    "word": "грати в азартні ігри",
+    "translation": "gamble",
+    "transcription": "/ˈɡæmbl/",
+    "example": ""
+  },
+  {
+    "id": 312,
+    "word": "надійшов в продаж",
+    "translation": "went on sale",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 313,
+    "word": "спад, падіння, зниження",
+    "translation": "Recession",
+    "transcription": "|rɪˈseʃn|",
+    "example": ""
+  },
+  {
+    "id": 314,
+    "word": "соромитися",
+    "translation": "ashamed",
+    "transcription": "/əˈʃeɪmd/",
+    "example": ""
+  },
+  {
+    "id": 315,
+    "word": "be ashamed ... sb",
+    "translation": "be ashamed of sb",
+    "transcription": "",
+    "example": "He was so rude to Phil - I was ashamed of him."
+  },
+  {
+    "id": 316,
+    "word": "поспішати",
+    "translation": "hurry",
+    "transcription": "/ˈhɝː.i/",
+    "example": ""
+  },
+  {
+    "id": 317,
+    "word": "ганьба",
+    "translation": "shame",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 318,
+    "word": "is somebody who write a book for another people",
+    "translation": "ghost writer",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 319,
+    "word": "повні кармани",
+    "translation": "a Pocketful",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 320,
+    "word": "дірка",
+    "translation": "hole",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 321,
+    "word": "кого, кому, ким, про кого",
+    "translation": "Whom",
+    "transcription": "|huːm|",
+    "example": ""
+  },
+  {
+    "id": 322,
+    "word": "лопатися, прориватися",
+    "translation": "Burst",
+    "transcription": "|bɜːrst|",
+    "example": ""
+  },
+  {
+    "id": 323,
+    "word": "сльоза",
+    "translation": "Tear",
+    "transcription": "|ter|",
+    "example": ""
+  },
+  {
+    "id": 324,
+    "word": "to find yourself in a place or situation at the end of a process or period of time",
+    "translation": "end up",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 325,
+    "word": "період часу в 2 тижні",
+    "translation": "fortnight",
+    "transcription": "/ˈfɔːrt.naɪt/",
+    "example": ""
+  },
+  {
+    "id": 326,
+    "word": "ремонтувати",
+    "translation": "repair",
+    "transcription": "/rɪˈper",
+    "example": ""
+  },
+  {
+    "id": 327,
+    "word": "робити щось безкарно, виходити сухим із води",
+    "translation": "get away with sth",
+    "transcription": "",
+    "example": "He shouldn't treat you like that. Don't let him get away with it."
+  },
+  {
+    "id": 328,
+    "word": "to do or use less of something:",
+    "translation": "cut down",
+    "transcription": "",
+    "example": "I'm trying to cut down on caffeine."
+  },
+  {
+    "id": 329,
+    "word": "відмовитись зовсім від чогось",
+    "translation": "cut out",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 330,
+    "word": "креветка",
+    "translation": "prawn",
+    "transcription": "/prɑːn",
+    "example": ""
   }
 ]

@@ -4,6 +4,11 @@
     width: 100%;
 }
 
+.modes-wrapper {
+    display: flex;
+    column-gap: 40px;
+}
+
 .start-wrapper {
     display: flex;
     align-items: center;
@@ -12,6 +17,10 @@
 }
 
 @media all and (max-width: 991px) {
+    .modes-wrapper {
+        justify-content: space-around;
+        column-gap: normal;
+    }
 }
 
 @media all and (max-width: 640px) {
@@ -25,5 +34,11 @@
             display: flex;
             flex-direction: column-reverse;
         }
+    }
+
+    .modes-wrapper {
+        flex-direction: column;
+
+        row-gap: 20px;
     }
 }

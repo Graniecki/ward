@@ -5,22 +5,23 @@ import wordsStatisticActions from '../../redux/wordsStatisticActions';
 import classNames from "classnames";
 import "./Card.scss";
 
-const Card = ({ word, wordsCount, addKnown, addUnknown }) => {
+const Card = ({ word, wordsCount, version, addKnown, addUnknown }) => {
   const [isOpen, setIsOpen] = useState(false);
   const history = useHistory();
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const wordId = +searchParams.get("wordId");
+  const path = version === "standart" ? "total-recall" : "vice-versa";
 
   useEffect(() => setIsOpen(false), [word]);
 
   const nextWord = (word, action) => {
-    history.push(`/modes/total-recall?wordId=${wordId + 1}`);
+    history.push(`/modes/${path}?wordId=${wordId + 1}`);
     action(word);
 
     if (wordId + 1 > wordsCount) {
       history.push({
-        pathname: "/modes/total-recall/results",
+        pathname: "/modes/results",
       });
     }
   };
@@ -30,7 +31,7 @@ const Card = ({ word, wordsCount, addKnown, addUnknown }) => {
       <div className="card">
 
         <div className="card__info">
-          <p>{word.word}</p>
+          <p>{version === "standart" ? word.word : word.translation}</p>
           <div
             onClick={() => setIsOpen(true)}
             className={classNames({
@@ -40,7 +41,7 @@ const Card = ({ word, wordsCount, addKnown, addUnknown }) => {
             })}
           >
             <p>{word.transcription || "-"}</p>
-            <p>{word.translation}</p>
+            <p>{version === "standart" ? word.translation : word.word}</p>
           </div>
         </div>
 

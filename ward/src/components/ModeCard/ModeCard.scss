@@ -1,5 +1,6 @@
 .mode-card {
     overflow: hidden;
+    width: 100%;
     max-width: 350px;
     border-radius: 50px;
     background-color: #ffffff;
@@ -52,5 +53,25 @@
     .mode-card {
         max-width: 250px;
         margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .mode-card {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 20px;
+
+        &__preview {
+            display: none;
+        }
+
+        .card-info {
+            padding: 20px;
+
+            &__title {
+                margin-bottom: 15px;
+            }
+        }
     }
 }
