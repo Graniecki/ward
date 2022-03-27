@@ -1832,5 +1832,537 @@
     "translation": "prawn",
     "transcription": "/prɑːn",
     "example": ""
+  },
+  {
+    "id": 331,
+    "word": "мідія",
+    "translation": "mussel",
+    "transcription": "/ˈmʌs.əl/",
+    "example": ""
+  },
+  {
+    "id": 332,
+    "word": "кальмар",
+    "translation": "squid",
+    "transcription": "/skwɪd/",
+    "example": ""
+  },
+  {
+    "id": 333,
+    "word": "ягня",
+    "translation": "lamb",
+    "transcription": "/læm/",
+    "example": ""
+  },
+  {
+    "id": 334,
+    "word": "тіло, м'ясо",
+    "translation": "flesh",
+    "transcription": "/fleʃ/",
+    "example": ""
+  },
+  {
+    "id": 335,
+    "word": "in the flesh",
+    "translation": "in real life and not on television or in a film",
+    "transcription": "",
+    "example": "She looks much taller in the flesh."
+  },
+  {
+    "id": 336,
+    "word": "яловичина",
+    "translation": "beef",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 337,
+    "word": "груша",
+    "translation": "pear",
+    "transcription": "/per/",
+    "example": ""
+  },
+  {
+    "id": 338,
+    "word": "персик",
+    "translation": "peach",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 339,
+    "word": "малина",
+    "translation": "raspberry",
+    "transcription": "/ˈræz.ber.i/",
+    "example": ""
+  },
+  {
+    "id": 340,
+    "word": "капуста",
+    "translation": "cabbage",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 341,
+    "word": "смажений",
+    "translation": "fried",
+    "transcription": "/fraɪd/",
+    "example": "a fried egg"
+  },
+  {
+    "id": 342,
+    "word": "пекти",
+    "translation": "bake",
+    "transcription": "/beɪk/",
+    "example": ""
+  },
+  {
+    "id": 343,
+    "word": "жарити, пекти",
+    "translation": "roast",
+    "transcription": "/roʊst/",
+    "example": ""
+  },
+  {
+    "id": 344,
+    "word": "нече́сний",
+    "translation": "dishonest",
+    "transcription": "/dɪˈsɑː.nɪst/",
+    "example": ""
+  },
+  {
+    "id": 345,
+    "word": "скупий",
+    "translation": "mean",
+    "transcription": "/miːn/",
+    "example": ""
+  },
+  {
+    "id": 346,
+    "word": "егоїстичний",
+    "translation": "selfish",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 347,
+    "word": "showing a wish to help or bring advantages to others, even if it results in disadvantage for yourself:",
+    "translation": "altruistic",
+    "transcription": "/ˌæl.truˈɪs.tɪk/",
+    "example": ""
+  },
+  {
+    "id": 348,
+    "word": "дуже брудний",
+    "translation": "filthy",
+    "transcription": "/ˈfɪl.θi/",
+    "example": ""
+  },
+  {
+    "id": 349,
+    "word": "дуже голодний",
+    "translation": "furious",
+    "transcription": "/ˈfjʊə.ri.əs/",
+    "example": ""
+  },
+  {
+    "id": 350,
+    "word": "передбачення, прогноз",
+    "translation": "prediction",
+    "transcription": "/prɪˈdɪk.ʃən/",
+    "example": ""
+  },
+  {
+    "id": 351,
+    "word": "заява",
+    "translation": "statement",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 352,
+    "word": "виражати",
+    "translation": "express",
+    "transcription": "/ɪkˈspres/",
+    "example": ""
+  },
+  {
+    "id": 353,
+    "word": "дані, докази",
+    "translation": "evidence",
+    "transcription": "/ˈev.ɪ.dəns/",
+    "example": ""
+  },
+  {
+    "id": 354,
+    "word": "впевнений, переконаний",
+    "translation": "certain",
+    "transcription": "",
+    "example": "Are you absolutely certain (that) you gave them the right number?"
+  },
+  {
+    "id": 355,
+    "word": "сумнів",
+    "translation": "doubt",
+    "transcription": "/daʊt/",
+    "example": "I'm having doubts about his ability to do the job"
+  },
+  {
+    "id": 356,
+    "word": "безсумнівно",
+    "translation": "definitely",
+    "transcription": "",
+    "example": "Are you going to have children? Oh, definitely (= without any doubt)."
+  },
+  {
+    "id": 357,
+    "word": "ймовірно",
+    "translation": "probably",
+    "transcription": "",
+    "example": "I'll probably be home by midnight."
+  },
+  {
+    "id": 358,
+    "word": "може бути, можливо (ймовірно)",
+    "translation": "perhaps",
+    "transcription": "/pəˈhæps/",
+    "example": "He hasn't written to me recently - perhaps he's lost my address."
+  },
+  {
+    "id": 359,
+    "word": "намір",
+    "translation": "intention",
+    "transcription": "",
+    "example": "It wasn't my intention to exclude her from the list - I just forgot her"
+  },
+  {
+    "id": 360,
+    "word": "домовленість",
+    "translation": "arrangement",
+    "transcription": "/əˈreɪndʒ.mənt/",
+    "example": "They'd made all the arrangements for the party."
+  },
+  {
+    "id": 361,
+    "word": "підкристлити",
+    "translation": "emphasize",
+    "transcription": "/ˈem.fə.saɪz/",
+    "example": "You can use italics or capitals to emphasize a word in a piece of writing."
+  },
+  {
+    "id": 362,
+    "word": "миттєвий, негайний",
+    "translation": "instant",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 363,
+    "word": "закуска",
+    "translation": "starter",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 364,
+    "word": "їжа на виніс",
+    "translation": "takeaway",
+    "transcription": "",
+    "example": "We were too tired to cook so we ordered takeaway."
+  },
+  {
+    "id": 365,
+    "word": "приносити",
+    "translation": "bring",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 366,
+    "word": "рідко, незвично",
+    "translation": "Unusual",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 367,
+    "word": "повернення коштів",
+    "translation": "to refund",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 368,
+    "word": "купувати",
+    "translation": "purchase",
+    "transcription": "/ˈpɜː.tʃəs/",
+    "example": ""
+  },
+  {
+    "id": 369,
+    "word": "асортимент",
+    "translation": "stock",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 370,
+    "word": "розміщати замовлення",
+    "translation": "place an order",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 371,
+    "word": "опрацьовувати замовлення клієнта",
+    "translation": "process the customer's order",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 372,
+    "word": "відстежувати їх вантаж",
+    "translation": "track their shipment",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 373,
+    "word": "навести справки",
+    "translation": "make an enquiry",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 374,
+    "word": "запит",
+    "translation": "inquiry",
+    "transcription": "/ɪnˈkwaɪə.ri/",
+    "example": "I've been making inquiries about/into the cost of a round-the-world ticket."
+  },
+  {
+    "id": 375,
+    "word": "постачальник",
+    "translation": "supplier",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 376,
+    "word": "декретна відпустка",
+    "translation": "maternity leave",
+    "transcription": "/məˈtɜː.nə.ti ˌliːv/",
+    "example": ""
+  },
+  {
+    "id": 377,
+    "word": "дозволяти",
+    "translation": "allow",
+    "transcription": "/əˈlaʊ/",
+    "example": ""
+  },
+  {
+    "id": 378,
+    "word": "не допускати",
+    "translation": "prevent",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 379,
+    "word": "субсидіювати",
+    "translation": "subsidized",
+    "transcription": "/ˈsʌbsɪdaɪzd/",
+    "example": ""
+  },
+  {
+    "id": 380,
+    "word": "нагляд за дітьми, коли батьки на роботі",
+    "translation": "childcare",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 381,
+    "word": "чарівний (милий)",
+    "translation": "adorable",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 382,
+    "word": "офіціант",
+    "translation": "waiter",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 383,
+    "word": "в будь-якому випадку",
+    "translation": "anyway",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 384,
+    "word": "добрий, люб'язний",
+    "translation": "kind",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 385,
+    "word": "божественний",
+    "translation": "divine",
+    "transcription": "/dɪˈvaɪn/",
+    "example": ""
+  },
+  {
+    "id": 386,
+    "word": "витончено",
+    "translation": "exquisite",
+    "transcription": "/ɪkˈskwɪz.ɪt/",
+    "example": ""
+  },
+  {
+    "id": 387,
+    "word": "привілей",
+    "translation": "privilege",
+    "transcription": "/ˈprɪv.əl.ɪdʒ/",
+    "example": ""
+  },
+  {
+    "id": 388,
+    "word": "дивний, незрозумілий",
+    "translation": "weird",
+    "transcription": "/wɪrd/",
+    "example": "I had a really weird dream last night."
+  },
+  {
+    "id": 389,
+    "word": "запіканка",
+    "translation": "casserole",
+    "transcription": "/ˈkæs.ə.roʊl/",
+    "example": ""
+  },
+  {
+    "id": 390,
+    "word": "someone who tries to make someone more important like them by being very polite and helpful in a way that is not sincere:",
+    "translation": "creep",
+    "transcription": "",
+    "example": "Making coffee for the boss again? You creep!"
+  },
+  {
+    "id": 391,
+    "word": "дуже цікавий",
+    "translation": "fascinating",
+    "transcription": "/ˈfæs.ən.eɪ.tɪŋ/",
+    "example": ""
+  },
+  {
+    "id": 392,
+    "word": "підходящий",
+    "translation": "appropriate",
+    "transcription": "",
+    "example": "Is this film appropriate for small children?"
+  },
+  {
+    "id": 393,
+    "word": "наявність",
+    "translation": "availability",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 394,
+    "word": "мало часу",
+    "translation": "short of time",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 395,
+    "word": "розібратись, справитись",
+    "translation": "deal with",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 396,
+    "word": "залиш це мені",
+    "translation": "Leave it with me",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 397,
+    "word": "час йде, час закінчується",
+    "translation": "Time's running out",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 398,
+    "word": "тиск",
+    "translation": "pressure",
+    "transcription": "/ˈpreʃ.ɚ/",
+    "example": ""
+  },
+  {
+    "id": 399,
+    "word": "виставка",
+    "translation": "exhibition",
+    "transcription": "/ˌek.səˈbɪʃ.ən/",
+    "example": ""
+  },
+  {
+    "id": 400,
+    "word": "особливий",
+    "translation": "particular",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 401,
+    "word": "обов'язок, борг",
+    "translation": "obligation",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 402,
+    "word": "зобов'язати",
+    "translation": "oblige",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 403,
+    "word": "хворобливий, запалений",
+    "translation": "sore",
+    "transcription": "",
+    "example": ""
+  },
+  {
+    "id": 404,
+    "word": "вимагати, вимога",
+    "translation": "demand",
+    "transcription": "/dɪˈmænd/",
+    "example": ""
+  },
+  {
+    "id": 405,
+    "word": "переконливо",
+    "translation": "forcefully",
+    "transcription": "/ˈfɔːrs.fəl.i/",
+    "example": ""
+  },
+  {
+    "id": 406,
+    "word": "бути зобов'язаним зробити щось",
+    "translation": "be supposed to",
+    "transcription": "",
+    "example": "The children are supposed to be at school by 8:00 a.m."
   }
 ]
