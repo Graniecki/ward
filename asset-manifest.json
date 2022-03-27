@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ward/static/css/main.fd67b483.css",
-    "main.js": "/ward/static/js/main.8be72eef.js",
+    "main.js": "/ward/static/js/main.5e6a2fc4.js",
     "index.html": "/ward/index.html",
     "main.fd67b483.css.map": "/ward/static/css/main.fd67b483.css.map",
-    "main.8be72eef.js.map": "/ward/static/js/main.8be72eef.js.map"
+    "main.5e6a2fc4.js.map": "/ward/static/js/main.5e6a2fc4.js.map"
   },
   "entrypoints": [
     "static/css/main.fd67b483.css",
-    "static/js/main.8be72eef.js"
+    "static/js/main.5e6a2fc4.js"
   ]
 }
