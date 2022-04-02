@@ -14,6 +14,7 @@ import { auth } from "./firebase-config";
 import './App.scss';
 
 function App() {
+  const [isLogged, setIsLogged] = useState(document.cookie.includes('wardLogged=true'));
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [user, setUser] = useState(null);
 
@@ -25,20 +26,33 @@ function App() {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  console.log(isMenuOpen);
+  const logoutFunc = () => {
+    setIsLogged(!isLogged)
+  };
+
+  const logoinFunc = () => {
+    setIsLogged(isLogged)
+  };
+
+  if (user) {
+    document.cookie = 'wardLogged=true';
+  }
 
   return (
     <div className="App">
-      {!user ? (
+      {/* {!isLogged ? (
         <>
           <Redirect from="/" to="/sign-in" />
-          <Route path="/sign-in" component={SignIn} />
+          <Route path="/sign-in">
+            <SignIn logoinFunc={logoinFunc} />
+          </Route>
           <Route path="/sign-up" component={SignUP} />
         </>
-      ) : (
+      ) : ( */}
         <div className='app-wrapper'>
           <Header
             logOut={!!user}
+            logoutFunc={logoutFunc}
             toggleMenuBar={toggleMenuBar}
           />
           <Aside isMenuOpen={isMenuOpen} />
@@ -53,7 +67,7 @@ function App() {
             </Switch>
           </main>
         </div>
-      )}
+      {/* )} */}
     </div>
   );
 }

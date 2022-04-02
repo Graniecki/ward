@@ -4,8 +4,7 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import "./ResultColumn.scss";
 
-export const ResultColumn = ({ percent, title, wordsList }) => {
-  console.log(wordsList);
+export const ResultColumn = ({ percent, title }) => {
   return (
     <div className="results">
       <div className="results__diagram">

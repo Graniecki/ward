@@ -2,10 +2,12 @@ import { collection, getDocs, addDoc } from "firebase/firestore";
 import { useState } from "react";
 import { database } from "../../firebase-config";
 
+import { slide as Menu } from 'react-burger-menu'
+
 import "./Home.scss";
 
 export const Home = () => {
-  //Fetch functionality
+  //#region Fetch-functionality
   const [words, setWords] = useState([]);
   const wordsCollectionsRef = collection(database, "words");
 
@@ -18,8 +20,9 @@ export const Home = () => {
 
     fetchWords();
   };
+  //#endregion Fetch-functionality
 
-  //Push functionality
+  //#region Push-functionality
   const [word, setWord] = useState("");
   const [transcription, setTranscription] = useState("");
   const [translation, settranslation] = useState("");
@@ -38,13 +41,15 @@ export const Home = () => {
 
     createWord();
   };
-
-  console.log(words);
+  //#endregion Push-functionality
 
   return (
     <div className="home-wrapper">
       <div className="home">
         <h1>Home page</h1>
+
+
+
         {/* <button onClick={getWords}>Push data into db</button>
 
         <form onSubmit={addWord}>
@@ -69,6 +74,7 @@ export const Home = () => {
           <br />
           <button type="submit">Add word</button>
         </form> */}
+
       </div>
     </div>
   );

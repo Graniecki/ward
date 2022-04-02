@@ -5,7 +5,7 @@ import { auth } from "../../firebase-config";
 
 import "./SignIn.scss";
 
-const SignIn = () => {
+const SignIn = ({ logoinFunc }) => {
   const [loginEmail, setLoginEmail] = useState("");
   const [loginPassword, setLoginPassword] = useState("");
 
@@ -27,6 +27,8 @@ const SignIn = () => {
     } catch (error) {
       console.warn(error.message);
     }
+
+    logoinFunc();
   };
 
   return (
